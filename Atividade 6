@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-main()
-{
+main(){
 
     int num;
 
@@ -11,8 +10,7 @@ main()
     if (numero % 2 == 0)
     {
         printf("O numero digitado é par");
-    }
-    else
+    }else
     {   printf("O numero digitado é impar");
     }
 }
