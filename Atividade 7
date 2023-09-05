@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-main()
-{
+main(){
 
     float primaprova, segprova, tercprova, provafinal, notafinal;
 
@@ -21,8 +20,7 @@ main()
     if (notafinal >= 7)
     {
         printf("Voce esta aprovado");
-    }
-    else
+    }else
     {
         printf("Voce esta aprovado");
     }
