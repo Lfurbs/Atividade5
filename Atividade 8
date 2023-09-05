@@ -14,12 +14,11 @@ main(){
     if (idade >=65 || servico >= 30)
     {
         printf("Voce esta apto a aposentar");
-    }
-    else if ( idade >= 60 && servico >= 25)
+    }else if ( idade >= 60 && servico >= 25)
     {
        printf("Voce esta apto a aposentar");
-    }
-    else{
+    }else
+    {
         printf("Voce nao esta apto a aposentar");
     }
 }
