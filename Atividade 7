@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+main()
+{
+
+    float primaprova, segprova, tercprova, provafinal, notafinal;
+
+    printf("Digite a nota da primeira prova");
+    scanf("%f", &primaprova);
+
+    printf("Digite a nota da segunda prova");
+    scanf("%f", &segprova);
+
+    printf("Digite a nota da terceira prova");
+    scanf("%f", &tercprova);
+
+    provafinal = tercprova * 2;
+
+    notafinal = ((primaprova + segprova + tercprova) / 3);
+
+    if (notafinal >= 7)
+    {
+        printf("Voce esta aprovado");
+    }
+    else
+    {
+        printf("Voce esta aprovado");
+    }
+}
